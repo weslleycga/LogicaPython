@@ -9,8 +9,5 @@ while vel != 999: #condição para encerrar o programa, o usuário deve digitar 
     elif vel < 40:
         print("Velocidade abaixo do minimo necessário! Dirija com cuidado.")
     elif vel > 60:
-        print("Velocidade acima do limite permitido! Você foi multado.")
-    else:
-        print("Velocidade acima do limite permitido! Você foi multado.")
-        
+        print("Velocidade acima do limite permitido! Você foi multado.")     
 print("Obrigado por usar o radar de velocidade!")
