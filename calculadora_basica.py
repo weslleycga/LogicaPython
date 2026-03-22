@@ -10,7 +10,7 @@ while continuar == "s":
        #bloco 1: O usuario escolhe a operação desejada e insere os números para a operação
     operacao = input("Digite a operação desejada (+, - , *, / , %  0 para sair):")
     if operacao == "0":
-        print("Obrigado por usar a calculadora básica!")
+        
         break
     elif operacao in ["+", "-", "*", "/", "%"]:
         num1 = float(input("Digite o primeiro número: "))
@@ -37,5 +37,6 @@ while continuar == "s":
                 print(f"O resultado do resto da divisão é: {resultado}")
     else:
             print("Operação inválida. Por favor, escolha uma operação válida.")
-            print("Obrigado por usar a calculadora básica!")
+            
+print("Obrigado por usar a calculadora básica!")
 
